@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 
 <head>
@@ -21,13 +22,13 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{% static 'asset2/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets2/css/bootstrap.min.css' %}">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'assets2css/style.css' %}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{% static 'assets2/css/responsive.css' %}">
     <!-- color -->
-    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
+    <link id="changeable-colors" rel="stylesheet" href="{% static 'assets2/css/colors/orange.css' %}" />
 
     <!-- Modernizer -->
     <script src="js/modernizer.js"></script>
@@ -59,7 +60,7 @@
                                 </button>
                                 <div class="logo">
                                     <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                        <img src="images/logo.png" alt="">
+                                        <img src="{% static 'assets2/images/logo.png' %}" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -135,8 +136,8 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                         <div class="about-images">
-                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
-                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
+                            <img class="about-main" src="{% static 'assets2/images/about-main.jpg' %}" alt="About Main Image">
+                            <img class="about-inset" src="{% static 'assets2/images/about-inset.jpg' %}" alt="About Inset Image">
                         </div>
                     </div>
                 </div>
@@ -168,7 +169,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                    <img src="{% static 'assets2/images/special-menu-1.jpg' %}" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
@@ -182,7 +183,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                    <img src="{% static 'assets2/images/special-menu-2.jpg' %}" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
@@ -196,7 +197,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-3.jpg" alt="sp-menu">
+                                    <img src="{% static 'assets2/images/special-menu-3.jpg' %}" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
@@ -210,7 +211,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
+                                    <img src="{% static 'assets2/images/special-menu-1.jpg' %}" alt="sp-menu">
                                 </div>
                             </div>
                             <div class="item item-type-zoom">
@@ -224,7 +225,7 @@
                                     </div>
                                 </a>
                                 <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
+                                    <img src="{% static 'assets2/images/special-menu-2.jpg' %}" alt="sp-menu">
                                 </div>
                             </div>
                         </div>
@@ -272,7 +273,7 @@
                             <div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-01.jpg" alt="" class="img-responsive">
+                                        <img src="{% static 'assets2/images/menu-item-thumbnail-01.jpg' %}" alt="" class="img-responsive">
                                         <div>
                                             <h3>GARLIC BREAD</h3>
                                             <p>
@@ -285,7 +286,7 @@
                                 <!-- end col -->
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-02.jpg" alt="" class="img-responsive">
+                                        <img src="{% static 'assets2/images/menu-item-thumbnail-02.jpg' %}" alt="" class="img-responsive">
                                         <div>
                                             <h3>MIXED SALAD</h3>
                                             <p>
@@ -298,7 +299,7 @@
                                 <!-- end col -->
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-03.jpg" alt="" class="img-responsive">
+                                        <img src="{% static 'assets2/images/menu-item-thumbnail-03.jpg' %}" alt="" class="img-responsive">
                                         <div>
                                             <h3>BBQ CHICKEN WINGS</h3>
                                             <p>
@@ -313,7 +314,7 @@
                             <div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                                     <div class="offer-item">
-                                        <img src="images/menu-item-thumbnail-04.jpg" alt="" class="img-responsive">
+                                        <img src="{% static 'assets2/images/menu-item-thumbnail-04.jpg' %}" alt="" class="img-responsive">
                                         <div>
                                             <h3>MEAT FEAST PIZZA</h3>
                                             <p>
